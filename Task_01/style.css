@@ -1,0 +1,193 @@
+html {
+  font-family: "Lucida Sans", sans-serif;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+/* home_page */
+
+/* navbar */
+
+.navbar-nav {
+  margin-left: 22%;
+}
+
+.navbar-brand {
+  font-family: 'Berkshire Swash', cursive;
+  margin-left: 27%;
+}
+
+.nav-link {
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.nav-item {
+  font-size: 115%;
+}
+
+.fa-shopping-bag {
+  margin-left: 69vh;
+  margin-top: 2vh;
+}
+
+/* image */
+
+#hey {
+  width: 100%;
+  height: 100vh;
+  background: url('img_01.jpg') no-repeat center center/cover;
+  margin: 0px;
+}
+
+/* project section */
+
+.card {
+  box-shadow: rgb(255, 255, 255);
+  font-family: 'Baloo Bhai 2', cursive;
+  height: 100%;
+}
+.card-body:hover{
+  background-color:rgb(171, 179, 179);
+  /* color: whitesmoke; */
+}
+
+.card-img-top {
+  height: 40vh;
+  top: 0px;
+  left: 0px;
+}
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* icon for welcome section */
+
+.icon-flex, .icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-wrapper {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid TEAL;
+  font-size: 3rem;
+  width: 80px;
+  height: 80px;
+}
+
+.icon-wrapper i {
+  color: TEAL;
+  border: 1px solid white;
+}
+
+h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5% ;
+}
+
+/* rgb(85, 3, 78) */
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+h6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vl {
+  border-left: 2px solid rgb(172, 177, 172);
+  height: 200px;
+  position: absolute;
+}
+.checked {
+  color: orange;
+}
+.date{
+  color: rgb(179, 181, 182);
+}
+
+
+
+.carousel {
+  position: relative;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+#carousel-thumbs {
+  background: rgba(255,255,255,.3);
+  bottom: 0;
+  left: 0;
+  padding: 0 50px;
+  right: 0;
+}
+#carousel-thumbs img {
+  border: 5px solid transparent;
+  cursor: pointer;
+}
+#carousel-thumbs img:hover {
+  border-color: rgba(255,255,255,.3);
+}
+#carousel-thumbs .selected img {
+  border-color: #fff;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+}
+@media all and (max-width: 767px) {
+  .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+  }
+}
+@media all and (min-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    position: absolute;
+  }
+}
+@media all and (max-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    background: #ccccce;
+  }
+}
+
+
+#signup{
+  background: url('https://nsdcindia.org/sites/default/files/contact-us.jpg') no-repeat center center/cover;
+}
+
+#signup1 {
+  /* width: 50%; */
+  border: 1px solid balck;
+  /* margin-left: 60% ; */
+  
+}
