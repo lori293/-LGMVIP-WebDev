@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    background: linear-gradient(89deg, #1f5c72 0%, #30817b 100%);
+    color: whitesmoke;
+}
+
+.logo{
+    font-size: 23px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media  screen and (max-width: 700px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+}
